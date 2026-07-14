@@ -7,5 +7,6 @@ Checks: >
   modernize-*,
   performance-*,
   portability-*,
+  -portability-avoid-pragma-once,
   readability-*,
   clang-analyzer-*
