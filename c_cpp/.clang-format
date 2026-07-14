@@ -91,10 +91,13 @@ SeparateDefinitionBlocks: Always
 SpaceBeforeCpp11BracedList: true
 SpaceInEmptyBraces: Always
 
+SortIncludes: true
+IncludeBlocks: Regroup
+IncludeIsMainRegex: '^".+"$'
 IncludeCategories:
   - Regex: '^<Windows\.h>'
     Priority: -1
   - Regex: "^<.*>"
-    Priority: 2
-  - Regex: '^".*"'
     Priority: 1
+  - Regex: '^".*"'
+    Priority: 2
